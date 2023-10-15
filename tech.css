@@ -1,0 +1,738 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.te{
+    color:red;
+}
+
+#container1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(13, 13, 13);
+    z-index: 20;
+    position: absolute;
+    display: none;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+#no {
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+}
+
+#ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 35%;
+}
+
+#img1 {
+    width: 207px;
+    height: 80px;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    display: none;
+    color: white;
+}
+
+
+.container {
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.ft {
+    width: 100%;
+    height: 38vh;
+    /* background: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.fl {
+    width: 100%;
+    height: 38vh;
+    /* background: RED; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+}
+
+.html {
+    font-size: 60px;
+    color: rgb(38, 146, 240);
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(248, 245, 251);
+
+
+}
+
+#h {
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(248, 245, 251);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    color: rgb(161, 157, 157);
+    margin-left: 13px;
+    margin-right: 13px;
+    background-color: rgb(248, 245, 251);
+
+}
+
+.second {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+}
+
+.css {
+    font-size: 60px;
+
+    color: rgb(38, 146, 240);
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(248, 245, 251);
+
+
+}
+
+.JS {
+    font-size: 60px;
+
+    color: rgb(38, 146, 240);
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(248, 245, 251);
+
+
+}
+
+.third {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+}
+
+.forth {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+}
+
+.boot {
+    font-size: 60px;
+    color: rgb(38, 146, 240);
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(248, 245, 251);
+
+}
+
+#tailwind {
+    width: 4.5vw;
+    margin-top: 10%;
+    margin-left: 36%;
+    background-color: rgb(248, 245, 251);
+}
+
+.fifth {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+}
+
+#front {
+    width: 4.5vw;
+    margin-top: 10%;
+    margin-left: 36%;
+    background-color: rgb(248, 245, 251);
+}
+
+.six {
+    width: 260px;
+    height: 260px;
+    background-color: rgb(248, 245, 251);
+    border-radius: 10px;
+
+} 
+
+@media (max-width:360px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(246, 246, 246);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        background-color: rgb(246, 246, 246);
+        font-weight:bolder;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    #no1{
+        background-color: rgb(246, 246, 246);
+    }
+
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    .ft {
+        width: 100%;
+        height: 120%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .fl {
+        width: 100%;
+        height:120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #img1 {
+        width: 135px;
+        height: 84px;
+        margin-top: 16px;
+    }
+
+
+    .icon {
+        display: flex;
+        color: black;
+        font-size: 20px;
+        margin-right: 21px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+    }
+
+}
+
+@media (max-width:384px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(246, 246, 246);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        background-color: rgb(246, 246, 246);
+        font-weight:bolder;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    #no1{
+        background-color: rgb(246, 246, 246);
+    }
+
+
+    #img1 {
+        width: 135px;
+        height: 84px;
+        margin-top: 16px;
+    }
+
+
+    .icon {
+        display: flex;
+        color: black;
+
+        font-size: 20px;
+        margin-right: 21px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+    }
+    .ft {
+        width: 100%;
+        height: 120%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .fl {
+        width: 100%;
+        height:120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+
+}
+
+@media (max-width:412px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(246, 246, 246);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        background-color: rgb(246, 246, 246);
+        font-weight:bolder;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    #no1{
+        background-color: rgb(246, 246, 246);
+    }
+
+    .ft {
+        width: 100%;
+        height: 120%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .fl {
+        width: 100%;
+        height:120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .icon {
+        display: flex;
+        color:black;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+        ;
+    }
+    .first {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+    
+    }
+    .second {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -10px;
+    
+    }
+    .third {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -70px;
+
+    
+    }
+    .forth {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top:-50px;
+    
+    }
+    .JS {
+        font-size: 60px;
+    
+        color: rgb(38, 146, 240);
+        margin-top: 10%;
+        margin-left: 36%;
+        background-color: rgb(248, 245, 251);
+    
+    
+    }
+    .boot {
+        font-size: 60px;
+        color: rgb(38, 146, 240);
+        margin-top: 10%;
+        margin-left: 34%;
+        background-color: rgb(248, 245, 251);
+    
+    }
+    
+    #tailwind {
+        width: 70px;
+        margin-top: 10%;
+        margin-left: 35%;
+        background-color: rgb(248, 245, 251);
+    }
+    #front {
+        width: 70px;
+        margin-top: 10%;
+        margin-left: 36%;
+        background-color: rgb(248, 245, 251);
+    }
+    
+}
+@media (max-width:428px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(246, 246, 246);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        background-color: rgb(246, 246, 246);
+        font-weight:bolder;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    #no1{
+        background-color: rgb(246, 246, 246);
+    }
+
+    .ft {
+        width: 100%;
+        height: 120%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .fl {
+        width: 100%;
+        height:120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .icon {
+        display: flex;
+        color:black;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+        ;
+    }
+    
+    
+}
+
+@media (max-width:460px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(246, 246, 246);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(246, 246, 246);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        background-color: rgb(246, 246, 246);
+        font-weight:bolder;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    #no1{
+        background-color: rgb(246, 246, 246);
+    }
+
+    .ft {
+        width: 100%;
+        height: 120%;
+        /* background: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .fl {
+        width: 100%;
+        height:120%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .icon {
+        display: flex;
+        color:black;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+        ;
+    }
+    .first {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+    
+    }
+    .second {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -70px;
+    
+    }
+    .third {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -70px;
+
+    
+    }
+    .forth {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10%;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top:-133px;
+    
+    }
+    .JS {
+        font-size: 60px;
+    
+        color: rgb(38, 146, 240);
+        margin-top: 10%;
+        margin-left: 36%;
+        background-color: rgb(248, 245, 251);
+    
+    
+    }
+    .boot {
+        font-size: 60px;
+        color: rgb(38, 146, 240);
+        margin-top: 10%;
+        margin-left: 34%;
+        background-color: rgb(248, 245, 251);
+    
+    }
+    
+    #tailwind {
+        width: 70px;
+        margin-top: 10%;
+        margin-left: 35%;
+        background-color: rgb(248, 245, 251);
+    }
+    #front {
+        width: 70px;
+        /* margin-top: 10%; */
+        margin-left: 36%;
+        background-color: rgb(248, 245, 251);
+    }
+    .fifth {
+        width: 230px;
+        height: 230px;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -196px;
+    
+    }
+    
+    .six {
+        width: 230px;
+        height: 230px;
+        background-color: rgb(248, 245, 251);
+        border-radius: 10px;
+        margin-top: -150px;
+    
+    } 
+    
+}

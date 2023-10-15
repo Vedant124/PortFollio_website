@@ -1,0 +1,464 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#container1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(13, 13, 13);
+    z-index: 20;
+    position: absolute;
+    display: none;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_page {
+    width: 100%;
+    height: 90%;
+    background-image: url(./CODE.jpg);
+}
+
+#main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#no {
+    cursor: pointer;
+}
+
+.home{
+    color:red;
+}
+
+a:hover {
+    color:red;
+}
+
+#ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 35%;
+}
+
+#img1 {
+    width: 207px;
+    height: 80px;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#name {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(4, 4, 4, 0.9);
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#image {
+    width: 32%;
+    height: 88%;
+    margin-top: 10%;
+    /* background-color: green; */
+    margin-left: 20%;
+}
+
+#man {
+    margin-left: -20px;
+    margin-top: -80px;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+#hello {
+    width: 20vw;
+    height: 8vh;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+#one {
+    width: 40vw;
+    height: 8vh;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#two {
+    width: 40vw;
+    height: 8vh;
+    margin-top: -2%;
+    margin-left: 1%;
+}
+
+#ved {
+    margin-left: 2.69vw;
+    font-size: 3vw;
+}
+
+#hel {
+    text-align: center;
+    padding: 3%;
+    font-size: 3vw;
+}
+
+span {
+    color: rgb(7, 224, 240);
+}
+
+#sur {
+    margin-top: 14px;
+    margin-left: 2.9vw;
+    font-size: 3vw;
+}
+
+#element {
+    width: 50vw;
+    height: 8vh;
+    margin-left: 4vw;
+    word-spacing: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vw;
+    color: rgb(58, 190, 227);
+    margin-top: 10px;
+}
+
+.icon {
+    display: none;
+    color: white;
+}
+
+@media (max-width:360px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(14, 14, 14);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(14, 14, 14);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        font-size: larger;
+        background-color: rgb(14, 14, 14);
+        font-weight: 900;
+        line-height: 40px;
+    }
+    #no1{
+        background-color: rgb(14, 14, 14);
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #image {
+        width: 80%;
+        height: 35%;
+        margin-top: -10px;
+        /* background-color: chartreuse; */
+        margin-left: 26px;
+    }
+
+    #img1 {
+        width: 135px;
+        height: 84px;
+        margin-top: 16px;
+    }
+
+    .icon {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        margin-right: 21px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+    }
+
+    #name {
+        width: 300px;
+        height: 250px;
+        background-color: rgba(4, 4, 4, 0.9);
+    }
+
+    #hello {
+        width: 200px;
+        height: 50px;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    #one {
+        width: 250px;
+        height: 8vh;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    #two {
+        width: 250px;
+        height: 40px;
+        margin-top: -2%;
+        margin-left: 1%;
+    }
+
+    #ved {
+
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    #hel {
+        text-align: center;
+        font-size: 25px;
+        margin-left: -30px;
+    }
+
+    span {
+        color: rgb(7, 224, 240);
+    }
+
+    #sur {
+        font-size: 25px;
+        margin-top: -7px;
+        margin-left: -60px;
+    }
+
+    #element {
+        width: 250px;
+        height: 8vh;
+        margin-left: 33px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 900;
+        color: rgb(58, 190, 227);
+        margin-top: -10px;
+    }
+
+    .icon {
+        display: flex;
+        color: white;
+    }
+}
+
+@media (max-width:430px) {
+    #container1 {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(14, 14, 14);
+        z-index: 99;
+        margin-top: -500%;
+        position: absolute;
+        display: flex;
+    }
+
+    #child {
+        text-align: center;
+       
+        background-color: rgb(14, 14, 14);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3.5%;
+    }
+
+    #dak {
+        font-size: larger;
+        background-color: rgb(14, 14, 14);
+        font-weight: 900;
+        line-height: 40px;
+    }
+    #no1{
+        background-color: rgb(14, 14, 14);
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #image {
+        width: 70%;
+        height: 30%;
+        margin-top: -10px;
+        /* background-color: chartreuse; */
+        margin-left: 10vw;
+        margin-right: -1vw;
+    }
+
+    #img1 {
+        width: 135px;
+        height: 84px;
+        margin-top: 16px;
+    }
+
+    .icon {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        margin-right: 21px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        color: rgb(212, 207, 207);
+    }
+
+    #ul {
+        display: none;
+    }
+
+    #name {
+        width: 300px;
+        height: 250px;
+        background-color: rgba(4, 4, 4, 0.9);
+        margin-left: 30px;
+
+    }
+
+    #hello {
+        width: 200px;
+        height: 50px;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    #one {
+        width: 250px;
+        height: 8vh;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    #two {
+        width: 250px;
+        height: 40px;
+        margin-top: -2%;
+        margin-left: 1%;
+    }
+
+    #ved {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    #hel {
+        text-align: center;
+        font-size: 25px;
+        margin-left: -30px;
+    }
+
+    span {
+        color: rgb(7, 224, 240);
+    }
+
+    #sur {
+        text-align: center;
+        font-size: 25px;
+        margin-left: -73px;
+    }
+
+    #element {
+        width: 250px;
+        height: 8vh;
+        margin-left: 33px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 900;
+        color: rgb(58, 190, 227);
+        margin-top: -10px;
+    }
+
+    .icon {
+        display: flex;
+        color: white;
+    }
+    #man {
+        
+        margin-left: -2vw;
+        margin-top: -100px;
+        width: 300px;
+        height: 360px;
+        border-radius: 10px;
+        background-color:rgb(10, 9, 9);
+    }
+    html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+}
